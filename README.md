@@ -1,3 +1,3 @@
 # Snake
 
-|Build Status|
+![](https://github.com/sagessylu/Snake/.github/workflows/pythonapp.yml/badge.svg)
