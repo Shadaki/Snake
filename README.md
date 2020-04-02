@@ -1,3 +1,3 @@
-# Snake
+# Snake for Numworks
 
-![](https://github.com/sagessylu/Snake/.github/workflows/Snake/badge.svg)
+
