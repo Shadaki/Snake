@@ -13,3 +13,4 @@ Ce jeu utilise des mecaniques qui ne sont disponibles qu'en version 13.1.0 et au
 ## À venir
 
 - Amélioration de la pause
+- Jeu allégé au maximum
