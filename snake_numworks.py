@@ -3,19 +3,19 @@ from ion import *
 from random import *
 from time import *
 
-mRapide = input("Reglages par defaut ? [Y/n] ")
+mRapide = input("Default settings? [Y/n] ")
 if mRapide == "n":
-    vitesse = input("Vitesse ? [8] ")
+    vitesse = input("Speed? [8] ")
     if vitesse == "":
         vitesse = 8
     else:
         vitesse = int(vitesse)
-    cMode = input("Light mode ? [Y/n] ")
+    cMode = input("Light mode? [Y/n] ")
     if cMode == "n":
         cMode = "black"
     else:
         cMode = "white"
-    t = input("Taille des cases ? (4/5/8/<10>) ")
+    t = input("Blocks' size? (4/5/8/<10>) ")
     if t = "":
         t = 10
     else:
@@ -31,10 +31,9 @@ dx, dy = 0, 1
 px, py = 10, 14
 score = 0
 
-draw_string("NumSnake !", 5, 200)
-draw_string("Score : 0", 200, 200)
+draw_string("Score: 0", 5, 203)
 if cMode == "white":
-    fill_rect(0, 200, 320, 2, noir)
+    fill_rect(0, 200, 320, 1, noir)
 else:
     fill_rect(0, 0, 320, 200, noir)
 
@@ -42,7 +41,7 @@ while True:
     if not pomme:
         while [px, py] in vers:
             px, py = randint(0, l-1), randint(0, L-1)
-        fill_rect(py*t, px*t, 10, 10, rouge)
+        fill_rect(py*t, px*t, t, t, rouge)
         pomme = True
     t1 = monotonic()
     while monotonic()-t1 < 1/vitesse:
@@ -59,7 +58,7 @@ while True:
     if [nx, ny] == [px, py]:
         pomme = False
         score += 1
-        draw_string(str(score), 280, 200)
+        draw_string(str(score), 75, 203)
     else:
         del vers[0]
         if cMode == "white":

@@ -2,7 +2,7 @@
 
 ![](snake.png)
 
-Ceci est un jeu de Snake pour la calculatrice Numworks.
+Jeu de Snake pour la calculatrice Numworks.
 
 Ce jeu nécessite la version 13.1.0 ou supérieure d'Epsilon (détection des touches de clavier appuyées).
 
