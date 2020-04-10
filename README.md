@@ -1,4 +1,6 @@
-# Snake pour Numworks
+# Snake
+
+![](snake.png)
 
 Ceci est un jeu de Snake pour la calculatrice Numworks.
 
