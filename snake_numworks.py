@@ -24,7 +24,7 @@ else:
     vitesse, cMode, t = 8, "white", 10
 L, l = 320 // t, 200 // t
 
-noir, blanc, rouge, vert = (0, 0, 0), (255, 255, 255), (255, 0, 0), (0, 255, 0)
+noir, blanc, rouge, vert = (0, 0, 0), (255, 255, 255), (255, 0, 0), (0, 230, 0)
 vers = [[l // 2, n] for n in range(L // 2 - 2, L // 2 + 2)]
 px, py = vers[0][0], vers[0][1]
 dx, dy = 0, 1
