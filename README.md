@@ -16,4 +16,3 @@ Ce jeu nécessite la version 13.1.0 ou supérieure d'Epsilon (détection des tou
 ## À venir
 
 - Amélioration de la pause
-- Jeu allégé au maximum
